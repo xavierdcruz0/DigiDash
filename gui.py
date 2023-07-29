@@ -9,6 +9,7 @@ import numpy as np
 
 from signal_reader import SignalReaderDummy, SignalReaderMCP3008
 
+
 REFRESH_INTERVAL = 100 #milliseconds
 HEIGHT, WIDTH = 500, 500
 CONFIG_PATH = 'configs/config1.json'
