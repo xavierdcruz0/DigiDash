@@ -19,6 +19,8 @@ Make sure development libraries are present:
 
 `sudo apt install python3-dev`
 
+`sudo apt install libbluetooth-dev`
+
 Until Bluetooth client functionality is created, there exists a simple
 Tkinter GUI to view sensor readouts and debug stuff:
 

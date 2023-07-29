@@ -1,0 +1,4 @@
+bcr-libraries==0.0.4
+spidev==3.6
+numpy
+git+https://github.com/pybluez/pybluez.git#egg=pybluez

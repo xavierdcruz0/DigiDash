@@ -2,3 +2,4 @@ venv/*
 __pycache__/*
 .idea/*
 backend/__pycache__/*
+backend/digidash_backend/__pycache__/*

@@ -1,9 +1,17 @@
+'''
+Module for connecting to the MCP3008 and polling the ADC pins for readings
+'''
+
+
 from bcr_mcp3008 import MCP3008
 import time
 import math
 
 
 class SignalReader():
+    '''
+    Abstract base class
+    '''
     def __init__(self, **config):
         pass
     
@@ -12,6 +20,9 @@ class SignalReader():
     
 
 class SignalReaderMCP3008(SignalReader):
+    '''
+    Actual implemenation that connects to MCP3008 hardware
+    '''
     def __init__(self, **config):
         self.channel = config.get("channel")
         self.device = config.get("device")
@@ -22,6 +33,9 @@ class SignalReaderMCP3008(SignalReader):
     
 
 class SignalReaderDummy(SignalReader):
+    '''
+    Dummy implementation for development work, where MCP3008 is not connected. Just spits out cosine wave signal.
+    '''
 
     def __init__(self, **config):
         self.channel = config.get("channel")

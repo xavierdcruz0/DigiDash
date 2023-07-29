@@ -1,3 +1,7 @@
+'''
+Demo Tkinter app for viewing sensor readings on a virtual gauge
+'''
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import font
@@ -10,7 +14,7 @@ from signal_reader import SignalReaderDummy, SignalReaderMCP3008
 
 REFRESH_INTERVAL = 100  # milliseconds
 HEIGHT, WIDTH = 500, 500
-CONFIG_PATH = 'backend/configs/config1.json'
+CONFIG_PATH = 'backend/digidash_backend/configs/config1.json'
 with open(CONFIG_PATH, 'r') as f:
     config = json.load(f)
 

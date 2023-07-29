@@ -1,3 +1,0 @@
-bcr-libraries==0.0.4
-spidev==3.6
-numpy
