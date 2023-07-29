@@ -44,7 +44,7 @@ def start_bluetooth_server():
         server_socket.close()
 
 if __name__ == '__main__':
-    with open('config1.json', 'r') as f:
+    with open('configs/config1.json', 'r') as f:
         config = json.load(f)
 
     start_bluetooth_server()
