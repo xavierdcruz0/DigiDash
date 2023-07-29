@@ -1,3 +1,7 @@
+'''
+This is just a prototyping script for working out how the MCP3008 API works. Probably safe to delete.
+'''
+
 import time
 from bcr_mcp3008 import MCP3008
 
