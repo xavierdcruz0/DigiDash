@@ -3,3 +3,29 @@ __pycache__/*
 .idea/*
 backend/__pycache__/*
 backend/digidash_backend/__pycache__/*
+
+ Editor/IDE-specific
+.idea/
+*.iml
+.DS_Store
+
+# React Native-specific
+node_modules/
+android/build/
+android/app/build/
+ios/Pods/
+ios/Podfile.lock
+npm-debug.log
+yarn-error.log
+
+# React Native debugging
+android/app/src/main/assets/react/
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/mipmap-*/
+
+# Miscellaneous
+**/__tests__/fixtures/
+**/__fixtures__/
+**/__snapshots__/
+coverage/
+.jest/
